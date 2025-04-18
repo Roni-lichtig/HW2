@@ -20,11 +20,17 @@
 }
 
 .pmain {
-    width: 60%;
-    float: left;
-    font-family: David, sans-serif;
-    color: black;
-    text-align: left;
+  float: left;
+  width: 60%;
+  font-family: david;
+  color: black;
+  text-align: left;
+  background-image: url('background.jpg'); /* Replace with your image name */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
 }
 
 .pnews {
