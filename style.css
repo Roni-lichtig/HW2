@@ -73,20 +73,26 @@ body {
 
 /* Table section */
 .myTable {
-  width: 40vw; /* רוחב הטבלה */
-  margin: 20px auto; /* מרכז את הטבלה אופקית ומוסיף מרווח אנכי */
-  border: 5px double green; /* מסגרת סביב הטבלה */
-  border-collapse: collapse; /* מאחד את גבולות התאים */
+  width: 40vw;
+  border: 5px double green;
   text-align: center;
-  font-size: 12px;
   color: red;
+  font-size: 12px;
+  table-layout: fixed;
+  margin: 20px auto;
+  clear: both;
+  border-collapse: collapse;
   box-sizing: border-box;
+  
 }
+.myTable table {
+  margin: 0 auto
+}
+.myTable td, .myTable th {
+  width: 50%; 
+  border: 1px solid green;
+  padding: 8px;
 
-.myTable th, .myTable td {
-  border: 1px solid green; /* מסגרת בין התאים */
-  padding: 0; /* הסר רווחים פנימיים */
-  box-sizing: border-box;
 }
 
 /* Footer */
