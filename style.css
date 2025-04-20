@@ -68,7 +68,7 @@ body {
   color: black;
   text-align: left;
   position: relative;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .myTable {
