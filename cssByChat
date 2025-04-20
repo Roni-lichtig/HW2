@@ -58,6 +58,7 @@ body {
   font-family: 'David', serif;
   font-size: 14px;
   color: brown;
+  width: "60%";
 }
 
 /* News section */
