@@ -42,23 +42,24 @@ body {
   font-family: david;
   text-align: left;
   color: black;
-  background-image: url('your-background-image.jpg'); /* Replace with your image path */
+  background-image: url('background.jpg'); /* Replace with your actual image path */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
   box-sizing: border-box;
   min-height: 100vh;
+  position: relative;
 }
 
-/* News section (pnews) */
+/* News section styles */
 .pnews {
   width: 40%;
   float: right;
   background-color: pink;
   padding: 15px;
-  position: relative;
   box-sizing: border-box;
+  position: relative;
 }
 
 /* Table section */
