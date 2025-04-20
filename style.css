@@ -34,7 +34,7 @@ body {
 .menu a {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 10px;
 }
 
 /* Main content styles */
@@ -69,6 +69,7 @@ body {
   text-align: left;
   position: relative;
   min-height: 50vh;
+  margin: 10px;
 }
 
 .myTable {
