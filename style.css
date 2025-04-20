@@ -86,7 +86,7 @@ body {
 }
 
  .myTable table {
-  margin: 0 auto
+  margin: 0 auto;
   border: 1px solid green;
  }
 .myTable td, .myTable th {
