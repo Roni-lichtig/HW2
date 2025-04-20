@@ -74,19 +74,26 @@ body {
 
 /* Table section */
 .myTable {
-  clear: both;
-  border: 4px solid green;
-  border-collapse: collapse;      /* מאחד גבולות */
-  margin: 20px auto;              /* מרכז את הטבלה */
+  width: 40vw;
+  border: 1px solid green;
   text-align: center;
-  font-size: 16px;
   color: red;
+  font-size: 12px;
+  table-layout: fixed;
+  margin: 20px auto;
+  clear: both;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  
 }
+.myTable table {
+  margin: 0 auto
+}
+.myTable td, .myTable th {
+  width: 50%; 
+  border: 1px solid green;
+  padding: 8px;
 
-.myTable td {
-  border: 3px solid green;
-  padding: 0;                     /* אין רווח בין הטקסט לגבול */
-  box-sizing: border-box;         /* לוודא שהגבול לא מוסיף גודל */
 }
 
 /* Footer */
