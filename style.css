@@ -75,7 +75,7 @@ body {
 .myTable {
   width: 40vw; /* רוחב הטבלה */
   margin: 20px auto; /* מרכז את הטבלה אופקית ומוסיף מרווח אנכי */
-  border: 1px solid green; /* מסגרת סביב הטבלה */
+  border: 5px double green; /* מסגרת סביב הטבלה */
   border-collapse: collapse; /* מאחד את גבולות התאים */
   text-align: center;
   font-size: 12px;
