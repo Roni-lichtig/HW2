@@ -8,7 +8,7 @@ body {
 
 /* Logo and header section */
 #logoAndHead {
-  width: 20%;
+  width: "20%";
   margin: 0 auto;
   text-align: center;
 }
