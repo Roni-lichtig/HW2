@@ -44,7 +44,7 @@ body {
   text-align: left;
   color: black;
   background-image: url('background.jpg'); /* Ensure this matches the path of your image */
-  background-size: cover;
+///  background-size: 
   background-repeat: no-repeat;
   ///background-position:
   padding: 20px;
