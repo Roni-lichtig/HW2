@@ -45,7 +45,7 @@ body {
   color: black;
   background-image: url('background.jpg'); 
   background-repeat: no-repeat;
-  background-position: left;
+  float: left;
   padding: 20px;
   box-sizing: border-box;
   min-height: 100vh;
