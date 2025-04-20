@@ -82,6 +82,7 @@ body {
   margin: 20px auto;
   clear: both;
   border-collapse: collapse;
+  box-sizing: border-box;
   
 }
 .myTable table {
