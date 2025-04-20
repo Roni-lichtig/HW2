@@ -85,6 +85,10 @@ body {
   box-sizing: border-box;
 }
 
+ .myTable table {
+  margin: 0 auto
+  border: 1px solid green;
+ }
 .myTable td, .myTable th {
   border: 1px solid green; /* Border for individual cells inside the table */
   padding: 8px;
