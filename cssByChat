@@ -59,6 +59,10 @@ body {
   font-size: 14px;
   color: brown;
   width: "60%";
+  background-image: url('background.jpg'); /* Ensure this matches the path of your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 /* News section */
