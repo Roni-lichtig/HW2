@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nadav's Mall</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Header and Logo -->
+<div id="logoAndHead">
+  <img src="logo.jpg" alt="Logo" />
+  <p><strong>This is Nadav’s mall, where you can find any food, cloth of game.</strong></p>
+</div>
+
+<!-- Contact Info (Top-right corner) -->
+<div class="pfooter">
+  Contact us: Nadav's mall, Hatut St.1111,<br>
+  Neve-Hamzizim. Tel: 555-999999,<br>
+  Email: NadavsMall@Mall.com
+</div>
+
+<!-- Menu -->
+<div class="menu">
+  <a href="#">About</a> |
+  <a href="#">Buy a product</a> |
+  <a href="#">Gallery</a> |
+  <a href="#">Contact us</a>
+</div>
+
+<!-- Main Container -->
+<div class="container">
+
+  <!-- Left Content Area -->
+  <div class="pmain">
+    <p>This is Nadav's mall, where you can find any food, cloth of game.<br>
+    You can find anything you want to buy here.<br>
+    You are more than welcome to come and see for yourself.</p>
+
+    <!-- Repeated text -->
+    <p>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+      this is our mall.<br>
+    </p>
+  </div>
+
+  <!-- News Section -->
+  <div class="pnews">
+    <iframe frameborder="0" height="200" width="300" scrolling="no"
+      src="http://ticker.mivzakim.net/ticker/category/1"></iframe>
+  </div>
+
+</div>
+
+<!-- Product Buttons -->
+<div class="product-buttons">
+  <button>Buy a dress</button>
+  <button>Buy a shirt</button>
+  <button>Buy a pizza</button>
+  <button>Buy a pasta</button>
+</div>
+
+</body>
+</html>
