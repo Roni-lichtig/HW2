@@ -74,7 +74,6 @@ body {
 .myTable {
   width: 40vw; /* 40% of the page width */
   border: 2px solid green; /* Outer border of the table */
-  /* Merge cell borders */
   margin: 20px auto; /* Center the table horizontally */
   text-align: center;
   color: red;
