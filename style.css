@@ -80,7 +80,7 @@
    font-size: 12px;
    table-layout: fixed;
    box-sizing: border-box;
-   clean: both;
+   clear: both;
  }
  
  .myTable th,
