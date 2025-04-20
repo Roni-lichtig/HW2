@@ -74,7 +74,7 @@ body {
 /* Table section */
 .myTable {
   width: 100%;
-  margin-top: 0px aotu;
+  margin-top: 0px auto;
   clear: both;
   text-align: center;
   color: red;
