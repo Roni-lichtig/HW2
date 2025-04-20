@@ -72,29 +72,26 @@ body {
 }
 
 
-/* Table section */
 .myTable {
-  width: 40vw;
+  width: 40vw; /* 40% of full page */
   border: 1px solid green;
   text-align: center;
   color: red;
   font-size: 12px;
   table-layout: fixed;
-  margin: 20px auto;
+  margin: 20px auto; /* center horizontally */
   clear: both;
   border-collapse: collapse;
   box-sizing: border-box;
-  
 }
-.myTable table {
-  margin: 0 auto
-}
+
 .myTable td, .myTable th {
-  width: 50%; 
   border: 1px solid green;
   padding: 8px;
-
+  width: 50%; /* optional for 2-column layout */
+  word-wrap: break-word;
 }
+
 
 /* Footer */
 .pfooter {
