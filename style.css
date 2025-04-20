@@ -33,6 +33,7 @@ body {
   text-decoration: none;
   margin: 0 10px;
 }
+
 /* Main content styles */
 .pmain {
   width: 60%;
@@ -41,13 +42,13 @@ body {
   font-family: david;
   text-align: left;
   color: black;
-  background-image: url('background.jpg'); 
+  background-image: url('background.jpg'); /* Ensure this matches the path of your image */
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
   box-sizing: border-box;
-  min-height: 100vh; 
+  min-height: 100vh;
   position: relative;
 }
 
@@ -59,8 +60,16 @@ body {
   padding: 15px;
   box-sizing: border-box;
   position: relative;
+  margin-top: 20px; /* Adjust for spacing */
+  padding: 15px;
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  position: relative;
+  float: right;
+  margin-left: 20px; /* Ensures separation from the main content */
+  min-height: 100vh;
 }
-
 
 /* Table section */
 .myTable {
