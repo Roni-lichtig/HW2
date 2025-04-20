@@ -46,7 +46,7 @@ body {
   background-image: url('background.jpg'); /* Ensure this matches the path of your image */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  ///background-position:
   padding: 20px;
   box-sizing: border-box;
   min-height: 100vh;
