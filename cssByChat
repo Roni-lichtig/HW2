@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: white;
+}
+
+/* Logo and header */
+#logoAndHead {
+  text-align: center;
+  margin-top: 10px;
+}
+#logoAndHead img {
+  width: 100px;
+}
+#logoAndHead p {
+  color: blue;
+}
+
+/* Contact box (top-right) */
+.pfooter {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: yellow;
+  border: 3px solid red;
+  padding: 10px;
+  width: 250px;
+  font-size: 14px;
+}
+
+/* Menu bar */
+.menu {
+  background-color: orange;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.menu a {
+  color: blue;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+/* Main content */
+.pmain {
+  flex: 2;
+  padding: 20px;
+  background: linear-gradient(to bottom right, pink, lavender);
+  font-family: 'David', serif;
+  font-size: 14px;
+  color: brown;
+}
+
+/* News section */
+.pnews {
+  flex: 1;
+  background-color: pink;
+  margin-left: 20px;
+  padding: 15px;
+}
+
+/* Buttons at bottom */
+.product-buttons {
+  margin-top: 30px;
+  text-align: center;
+}
+.product-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 2px solid green;
+  background-color: white;
+  color: darkgreen;
+  cursor: pointer;
+}
+.product-buttons button:hover {
+  background-color: #e6ffe6;
+}
