@@ -81,10 +81,10 @@ body {
   font-size: 12px;
   table-layout: fixed;
   box-sizing: border-box;
+  clear: both;
 }
 
-.myTable th,
-.myTable td {
+.myTable th, .myTable td {
   border: 1px solid green; /* Inner cell borders */
   padding: 8px;
   width: 50%; /* Each column takes half the table */
