@@ -55,7 +55,7 @@ body {
 
 /* News section styles */
 .pnews {
-  width: 40%;
+  width: "40%";
   float: right;
   background-color: pink;
   padding: 15px;
