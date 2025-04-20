@@ -74,12 +74,12 @@ body {
 /* Table section */
 .myTable {
   width: 40%;
-  margin: 20px auto;
+  border: 1px solid green;
   text-align: center;
   color: red;
   font-size: 12px;
-  border: 1px solid green;
   table-layout: fixed;
+  margin: 20px auto;
   clear: both;
   border-collapse: collapse;
   
