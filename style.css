@@ -1,15 +1,9 @@
-/* style.css */
-
 body {
   margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('background.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
-/* Logo and Header Section */
+/* Logo & header area */
 #logoAndHead {
   width: 20%;
   margin: 0 auto;
@@ -18,71 +12,73 @@ body {
 
 #logoAndHead img {
   width: 70%;
-  height: auto;
 }
 
 #logoAndHead p {
   color: blue;
-  font-weight: bold;
 }
 
-/* Menu Section */
+/* Menu bar */
 .menu {
-  background-color: orange;
   font-size: 20px;
+  background-color: orange;
   padding: 10px;
   text-align: center;
 }
 
 .menu a {
-  color: black;
-  text-decoration: none;
   margin: 0 10px;
+  text-decoration: none;
+  color: black;
 }
 
-/* Main Content Section */
+/* Main content area */
+.pmain-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .pmain {
-  width: 60%;
   float: left;
-  text-align: left;
-  font-family: "David", serif;
+  width: 60%;
+  font-family: David;
   color: black;
+  text-align: left;
+  background-image: url('background.jpg'); /* make sure this file exists in your repo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 20px;
   box-sizing: border-box;
 }
 
-/* News Section */
+/* pnews aligned to the right */
 .pnews {
   width: 40%;
-  float: right;
   background-color: pink;
-  padding: 15px;
+  float: right;
   position: relative;
+  padding: 15px;
   box-sizing: border-box;
 }
 
-/* Table Section */
+/* Table */
 .myTable {
   width: 40%;
   margin: 40px auto;
-  clear: both;
-}
-
-.myTable table {
-  width: 100%;
-  border: 2px solid green;
   color: red;
+  border: 1px solid green;
   font-size: 12px;
-  border-collapse: collapse;
+  clear: both;
   text-align: center;
 }
 
-.myTable th, .myTable td {
+.myTable td, .myTable th {
   border: 1px solid green;
-  padding: 10px;
+  padding: 8px;
 }
 
-/* Footer Section */
+/* Footer */
 .pfooter {
   position: fixed;
   top: 0;
@@ -91,25 +87,5 @@ body {
   width: 300px;
   border: 3px solid red;
   padding: 10px;
-  font-weight: bold;
-  z-index: 999;
-}
-
-/* Extra Recommendation Section */
-.recommendation {
-  clear: both;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  text-align: left;
-  background-color: #f3f3f3;
-}
-
-.recommendation h2 {
-  color: darkblue;
-  font-size: 20px;
-}
-
-.recommendation ul {
-  list-style-type: disc;
-  margin-left: 20px;
+  font-size: 14px;
 }
