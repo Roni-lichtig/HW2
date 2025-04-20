@@ -82,6 +82,8 @@ body {
   border: 1px solid green;
   border-collapse: collapse;
   margin-top: 20px;
+  float: cebter;
+  
 }
 
 .myTable td, .myTable th {
