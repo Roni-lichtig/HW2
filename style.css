@@ -64,12 +64,10 @@ body {
   padding: 15px;
   box-sizing: border-box;
   position: relative;
-  margin-top: 20px;
   font-size: 14px;
   color: black;
   text-align: left;
   position: relative;
-  margin-left: 20px;
   min-height: 100vh;
 }
 
