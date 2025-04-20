@@ -74,7 +74,7 @@ body {
 /* Table section */
 .myTable {
   width: 100%;
-  margin: 0px auto;
+  margin: 20px auto;
   clear: both;
   text-align: center;
   color: red;
@@ -87,7 +87,6 @@ body {
 .myTable td, .myTable th {
   border: 1px solid green;
   padding: 8px;
-  box-sizing: border-box;
 
 }
 
