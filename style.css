@@ -27,6 +27,7 @@ body {
   background-color: orange;
   padding: 10px;
   text-align: center;
+   width: 100%;
 }
 
 .menu a {
