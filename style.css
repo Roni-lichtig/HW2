@@ -39,13 +39,13 @@ body {
 .pmain {
   width: 60%;
   float: left;
-  font-size: 14px;
+  font-size: 18px;
   font-family: david;
   text-align: left;
   color: black;
 
   background-image: url('background.jpg');
-  background-size: cover;         /* חשוב כדי שהרקע ימלא את האלמנט */
+  background-size: cover;       
   background-repeat: no-repeat;
   background-position: center;
 
