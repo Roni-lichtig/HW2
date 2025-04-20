@@ -74,19 +74,19 @@ body {
 
 .myTable {
   width: 40vw; /* 40% of full page */
-  border: 2px solid green;
+  border: 2px solid green; /* Border around the entire table */
   text-align: center;
   color: red;
   font-size: 12px;
   table-layout: fixed;
   margin: 20px auto; /* center horizontally */
   clear: both;
-  border-collapse: collapse;
+  border-collapse: collapse; /* ensures borders between cells are merged */
   box-sizing: border-box;
 }
 
 .myTable td, .myTable th {
-  border: 1px solid green;
+  border: 1px solid green; /* Border for individual cells inside the table */
   padding: 8px;
   width: 50%; /* optional for 2-column layout */
   word-wrap: break-word;
