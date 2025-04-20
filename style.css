@@ -43,8 +43,7 @@ body {
   font-family: david;
   text-align: left;
   color: black;
-  background-image: url('background.jpg'); /* Ensure this matches the path of your image */
-  background-size: cover;
+  background-image: url('background.jpg'); 
   background-repeat: no-repeat;
   background-position: left;
   padding: 20px;
