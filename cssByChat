@@ -36,8 +36,6 @@ body {
   padding: 10px;
   text-align: center;
   font-weight: bold;
-}
-.menu a {
   color: blue;
   text-decoration: underline;
   margin: 0 10px;
