@@ -74,15 +74,13 @@ body {
 /* Table section */
 .myTable {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 20px aotu;
   clear: both;
   text-align: center;
   color: red;
   font-size: 12px;
   border: 1px solid green;
   border-collapse: collapse;
-  margin-top: 20px;
-  float: cebter;
   
 }
 
@@ -104,9 +102,3 @@ body {
   font-size: 14px;
 }
 
-/* Clear float on body */
-body::after {
-  content: "";
-  display: block;
-  clear: both;
-}
