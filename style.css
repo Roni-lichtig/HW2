@@ -33,7 +33,6 @@ body {
   text-decoration: none;
   margin: 0 10px;
 }
-
 /* Main content styles */
 .pmain {
   width: 60%;
@@ -42,13 +41,13 @@ body {
   font-family: david;
   text-align: left;
   color: black;
-  background-image: url('background.jpg'); /* Replace with your actual image path */
-  background-size: cover;
+  background-image: url('background.jpg'); 
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
   box-sizing: border-box;
-  min-height: 100vh;
+  min-height: 100vh; 
   position: relative;
 }
 
@@ -61,6 +60,7 @@ body {
   box-sizing: border-box;
   position: relative;
 }
+
 
 /* Table section */
 .myTable {
