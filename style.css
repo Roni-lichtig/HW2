@@ -1,9 +1,11 @@
+/* General page styles */
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Logo & header area */
+/* Logo and header section */
 #logoAndHead {
   width: 20%;
   margin: 0 auto;
@@ -18,7 +20,7 @@ body {
   color: blue;
 }
 
-/* Menu bar */
+/* Menu styles */
 .menu {
   font-size: 20px;
   background-color: orange;
@@ -27,50 +29,49 @@ body {
 }
 
 .menu a {
-  margin: 0 10px;
+  color: white;
   text-decoration: none;
-  color: black;
+  margin: 0 10px;
 }
 
-/* Main content area */
-.pmain-container {
-  display: flex;
-  justify-content: space-between;
-}
-
+/* Main content styles */
 .pmain {
-  float: left;
   width: 60%;
-  font-family: David;
-  color: black;
+  float: left;
+  font-size: 14px;
+  font-family: david;
   text-align: left;
-  background-image: url('background.jpg'); /* make sure this file exists in your repo */
+  color: black;
+  background-image: url('your-background-image.jpg'); /* Replace with your image path */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
   box-sizing: border-box;
+  min-height: 100vh;
 }
 
-/* pnews aligned to the right */
+/* News section (pnews) */
 .pnews {
   width: 40%;
-  background-color: pink;
   float: right;
-  position: relative;
+  background-color: pink;
   padding: 15px;
+  position: relative;
   box-sizing: border-box;
 }
 
-/* Table */
+/* Table section */
 .myTable {
   width: 40%;
-  margin: 40px auto;
-  color: red;
-  border: 1px solid green;
-  font-size: 12px;
+  margin: 0 auto;
   clear: both;
   text-align: center;
+  color: red;
+  font-size: 12px;
+  border: 1px solid green;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
 .myTable td, .myTable th {
@@ -87,5 +88,6 @@ body {
   width: 300px;
   border: 3px solid red;
   padding: 10px;
+  box-sizing: border-box;
   font-size: 14px;
 }
