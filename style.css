@@ -71,31 +71,25 @@ body {
   min-height: 100vh;
 }
 
-
 .myTable {
-  width: 40vw; /* 40% of full page */
-  border: 2px solid green; /* Border around the entire table */
+  width: 40vw; /* 40% of the page width */
+  border: 2px solid green; /* Outer border of the table */
+  /* Merge cell borders */
+  margin: 20px auto; /* Center the table horizontally */
   text-align: center;
   color: red;
   font-size: 12px;
   table-layout: fixed;
-  margin: 20px auto; /* center horizontally */
-  clear: both;
-  border-collapse: collapse; /* ensures borders between cells are merged */
   box-sizing: border-box;
 }
 
- .myTable table {
-  margin: 0 auto;
-  border: 1px solid green;
- }
-.myTable td, .myTable th {
-  border: 1px solid green; /* Border for individual cells inside the table */
+.myTable th,
+.myTable td {
+  border: 1px solid green; /* Inner cell borders */
   padding: 8px;
-  width: 50%; /* optional for 2-column layout */
+  width: 50%; /* Each column takes half the table */
   word-wrap: break-word;
 }
-
 
 /* Footer */
 .pfooter {
