@@ -1,106 +1,106 @@
 /* General page styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Logo and header section */
-#logoAndHead {
-  width: "20%";
-  margin: 0 auto;
-  text-align: center;
-}
-
-#logoAndHead img {
-  width: "70%";
-}
-
-#logoAndHead p {
-  color: blue;
-}
-
-/* Menu styles */
-.menu {
-  font-size: 20px;
-  background-color: orange;
-  padding: 10px;
-  text-align: left;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-  margin: 0px;
-}
-
-/* Main content styles */
-.pmain {
-  width: 60%;
-  float: left;
-  font-size: 20px;
-  font-family: david;
-  text-align: left;
-  color: black;
-
-  background-image: url('background.jpg');
-  background-size: cover;       
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 15px;
-  box-sizing: border-box;
-  min-height: 100vh;
-  position: relative;
-}
-
-/* News section styles */
-.pnews {
-  width: 40%;
-  float: right;
-  background-color: pink;
-  padding: 15px;
-  box-sizing: border-box;
-  position: relative;
-  font-size: 14px;
-  color: black;
-  text-align: left;
-  position: relative;
-  min-height: 50vh;
-}
-
-}
-.myTable {
-  width: 40vw; /* 40% of the page width */
-  border: 2px solid green; /* Outer border of the table */
-  margin: 20px auto; /* Center the table horizontally */
-  text-align: center;
-  color: red;
-  font-size: 12px;
-  table-layout: fixed;
-  box-sizing: border-box;
-  clear: both;
-}
-
-.myTable th, .myTable td {
-  border: 1px solid green; /* Inner cell borders */
-  padding: 8px;
-  width: 50%; /* Each column takes half the table */
-  word-wrap: break-word;
-}
-
-/* Footer */
-.pfooter {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: yellow;
-  width: 300px;
-  border: 3px solid red;
-  padding: 10px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-
+ body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ /* Logo and header section */
+ #logoAndHead {
+   width: "20%";
+   margin: 0 auto;
+   text-align: center;
+ }
+ 
+ #logoAndHead img {
+   width: "70%";
+ }
+ 
+ #logoAndHead p {
+   color: blue;
+ }
+ 
+ /* Menu styles */
+ .menu {
+   font-size: 20px;
+   background-color: orange;
+   padding: 10px;
+   text-align: left;
+   width: 100%;
+   box-sizing: border-box;
+ }
+ 
+ .menu a {
+   color: white;
+   text-decoration: none;
+   margin: 0 10px;
+ }
+ 
+ /* Main content styles */
+ .pmain {
+   width: 60%;
+   float: left;
+   font-size: 20px;
+   font-family: david;
+   text-align: left;
+   color: black;
+ 
+   background-image: url('background.jpg');
+   background-size: cover;       
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 15px;
+   box-sizing: border-box;
+   min-height: 100vh;
+   position: relative;
+ }
+ 
+ /* News section styles */
+ .pnews {
+   width: 40%;
+   float: right;
+   background-color: pink;
+   padding: 15px;
+   box-sizing: border-box;
+   position: relative;
+   font-size: 14px;
+   color: black;
+   text-align: left;
+   position: relative;
+   min-height: 50vh;
+ }
+ 
+ .myTable {
+   width: 40vw; /* 40% of the page width */
+   border: 2px solid green; /* Outer border of the table */
+   margin: 20px auto; /* Center the table horizontally */
+   text-align: center;
+   color: red;
+   font-size: 12px;
+   table-layout: fixed;
+   box-sizing: border-box;
+   clean: both;
+ }
+ 
+ .myTable th,
+ .myTable td {
+   border: 1px solid green; /* Inner cell borders */
+   padding: 8px;
+   width: 50%; /* Each column takes half the table */
+   word-wrap: break-word;
+ }
+ 
+ /* Footer */
+ .pfooter {
+   position: fixed;
+   top: 0;
+   right: 0;
+   background-color: yellow;
+   width: 300px;
+   border: 3px solid red;
+   padding: 10px;
+   box-sizing: border-box;
+   font-size: 14px;
+ }
+ 
