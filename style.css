@@ -79,6 +79,7 @@ body {
   color: red;
   font-size: 12px;
   border: 1px solid green;
+  table-layout: fixed;
   clear: both;
   border-collapse: collapse;
   
@@ -87,6 +88,7 @@ body {
   margin: 0 auto
 }
 .myTable td, .myTable th {
+  width: 50%; 
   border: 1px solid green;
   padding: 8px;
 
