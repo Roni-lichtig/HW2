@@ -8,13 +8,14 @@ body {
 
 /* Logo and header section */
 #logoAndHead {
-  width: "20%";
+  width: 20%;
   margin: 0 auto;
   text-align: center;
 }
 
 #logoAndHead img {
-  width: "70%";
+  width: 70%;
+  clear: both;
 }
 
 #logoAndHead p {
@@ -75,15 +76,17 @@ body {
 .myTable {
   width: 100%;
   margin: 20px auto;
-  clear: both;
   text-align: center;
   color: red;
   font-size: 12px;
   border: 1px solid green;
+  clear: both;
   border-collapse: collapse;
   
 }
-
+.myTable table {
+  margin: 0 auto
+}
 .myTable td, .myTable th {
   border: 1px solid green;
   padding: 8px;
