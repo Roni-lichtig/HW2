@@ -73,7 +73,7 @@ body {
 
 /* Table section */
 .myTable {
-  width: 40%;
+  width: 40vw;
   border: 1px solid green;
   text-align: center;
   color: red;
@@ -90,7 +90,7 @@ body {
 .myTable td, .myTable th {
   width: 50%; 
   border: 1px solid green;
-  /*padding: 8px;*/
+  padding: 8px;
 
 }
 
