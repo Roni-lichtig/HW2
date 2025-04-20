@@ -74,7 +74,7 @@ body {
 
 .myTable {
   width: 40vw; /* 40% of full page */
-  border: 1px solid green;
+  border: 2px solid green;
   text-align: center;
   color: red;
   font-size: 12px;
