@@ -39,13 +39,12 @@ body {
 .pmain {
   width: "60%";
   float: left;
+  background-image: url('background.jpg'); 
+  background-repeat: no-repeat;
   font-size: 14px;
   font-family: david;
   text-align: left;
   color: black;
-  background-image: url('background.jpg'); 
-  background-repeat: no-repeat;
-  float: left;
   padding: 20px;
   box-sizing: border-box;
   min-height: 100vh;
