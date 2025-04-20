@@ -41,25 +41,19 @@ body {
   margin: 0 10px;
 }
 
-/* Main container */
-.container {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
-}
 
 /* Main content */
 .pmain {
   flex: 2;
   padding: 20px;
-  background: linear-gradient(to bottom right, pink, lavender);
-  font-family: 'David', serif;
-  font-size: 14px;
-  color: brown;
-  width: "60%";
   background-image: url('background.jpg'); /* Ensure this matches the path of your image */
   background-size: cover;
   background-repeat: no-repeat;
+  width: "60%";
+  font-family: 'David', serif;
+  font-size: 14px;
+  color: brown;
+
 }
 
 /* News section */
